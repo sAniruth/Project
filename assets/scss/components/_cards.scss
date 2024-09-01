@@ -1,6 +1,11 @@
 .card{
+    border: 0;
+    padding: 24px;
+    border-radius: 5px;
+    background: #F8F8F8 !important;
     .card-header{
         border: 0;
+        background-color: transparent;
     }
     .card-body{
         border: 0;
