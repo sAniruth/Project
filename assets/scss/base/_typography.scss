@@ -1,0 +1,39 @@
+//Font weights
+$thin:100;
+$extralight:200;
+$light:300;
+$regular:400;
+$medium:500;
+$semibold:600;
+$bold:700;
+$extra-bold:800;
+
+//Font Size
+h1,.h1{
+    font-size: 69px;
+    font-weight: $bold
+}
+h2,.h2{
+    font-size: 55px;
+    font-weight: $bold
+}
+h3,.h3{
+    font-size: 44px;
+    font-weight: $bold
+}
+h4,.h4{
+    font-size:35px;
+    font-weight: $bold
+}
+h5,.h5{
+    font-size: 28px;
+    font-weight: $bold
+}
+h6,.h6{
+    font-size: 23px;
+    font-weight: $bold
+}
+
+p{
+    font-size: 14px;
+}
