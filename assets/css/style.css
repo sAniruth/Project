@@ -15,7 +15,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: 700;
 }
 
@@ -29,8 +29,35 @@ h6, .h6 {
   font-weight: 700;
 }
 
+.fs-24 {
+  font-size: 24px;
+}
+
 p {
   font-size: 14px;
+  line-height: 28px;
+}
+
+.display-1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.display-2 {
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.text-primary {
+  color: #FD6F00 !important;
+}
+
+.text-dark {
+  color: #000000;
 }
 
 body {
@@ -38,8 +65,14 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
+a {
+  color: #000000;
+}
 a:hover {
   color: #FD6F00;
 }
@@ -47,6 +80,13 @@ a.active {
   color: #FD6F00;
 }
 
+.bg-primary {
+  background-color: #FD6F00 !important;
+}
+
+.header {
+  padding-bottom: 10px;
+}
 .header .navbar .navbar-toggler {
   border: none;
 }
@@ -64,6 +104,10 @@ a.active {
 }
 .header .navbar .collapse .navbar-nav .nav-item:hover a {
   color: #FD6F00;
+}
+.header .navbar .collapse .navbar-nav a:active {
+  background-color: #FD6F00;
+  border: 1px solid #FD6F00;
 }
 
 .btn.btn-primary {
@@ -101,14 +145,62 @@ a.active {
   border-radius: 0.35rem;
 }
 
+.card {
+  border: 0;
+  padding: 24px;
+  border-radius: 5px;
+  background: #F8F8F8 !important;
+}
 .card .card-header {
   border: 0;
+  background-color: transparent;
 }
 .card .card-body {
   border: 0;
 }
 .card .card-fotter {
   border: 0;
+}
+
+.hero-section {
+  padding: 80px 0;
+}
+.hero-section .hero-content .hero-title {
+  margin-bottom: 28px;
+}
+.hero-section .hero-content .hero-description {
+  margin-bottom: 22px;
+}
+
+.about-me {
+  padding: 80px 0;
+}
+.about-me .about-content {
+  margin-bottom: 15px;
+}
+.about-me .about-content p {
+  line-height: 28px;
+}
+.about-me .progress-bars {
+  margin-bottom: 25px;
+}
+
+.serivces {
+  padding: 80px 0;
+}
+.serivces .header-sections {
+  margin-bottom: 24px;
+}
+
+.contact {
+  padding: 80px 0;
+}
+.contact .input-box {
+  margin-right: 25px;
+}
+.contact .input-box input:focus {
+  border-color: #ff9654;
+  box-shadow: 0 0 0 0.25rem rgba(243, 162, 57, 0.25);
 }
 
 /*# sourceMappingURL=style.css.map */
