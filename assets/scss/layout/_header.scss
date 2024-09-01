@@ -1,0 +1,38 @@
+.header {
+    padding-bottom: 10px;
+    .navbar {
+        .navbar-toggler {
+            border: none;
+        }
+
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    margin-right: 12px;
+
+                    .nav-link {
+                        color: $dark;
+
+                        &.active {
+                            color: $primary;
+                        }
+                    }
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &:hover a {
+                        color: $primary;
+                    }
+                }
+                a{
+                    &:active{
+                        background-color: $primary;
+                        border: 1px solid $primary;
+                    }
+                }
+            }
+        }
+    }
+}

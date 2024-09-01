@@ -1,0 +1,44 @@
+// Breakpoints map
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px
+);
+
+// Mixin for media queries
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint '#{$breakpoint}' not found in the \$breakpoints map.";
+  }
+}
+
+// Button Size Mixin
+@mixin button-size($size) {
+  @if $size == 'sm' {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.2rem;
+  } @else if $size == 'md' {
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+  } @else if $size == 'lg' {
+    font-size: 1.125rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+  } @else if $size == 'xl' {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.35rem;
+  } @else {
+    @warn "Unknown size '#{$size}' specified.";
+  }
+}
+
