@@ -1,0 +1,31 @@
+.btn{
+    &.btn-primary{
+        background-color: $primary;
+        color: $white !important;
+        border: 1px solid $primary;
+        border-radius: 5px
+    }
+}
+.btn-primary{
+    &:hover{
+        background-color: $primary-500;
+    }
+}
+
+//Button Size
+.btn-sm {
+    @include button-size(sm);
+  }
+  
+  .btn-md {
+    @include button-size(md);
+  }
+  
+  .btn-lg {
+    @include button-size(lg);
+  }
+  
+  .btn-xl {
+    @include button-size(xl);
+  }
+  

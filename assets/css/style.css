@@ -1,3 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+h1, .h1 {
+  font-size: 69px;
+  font-weight: 700;
+}
 
+h2, .h2 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+h3, .h3 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+h4, .h4 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+h5, .h5 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h6, .h6 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+}
+
+body {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover {
+  color: #FD6F00;
+}
+a.active {
+  color: #FD6F00;
+}
+
+.header .navbar .navbar-toggler {
+  border: none;
+}
+.header .navbar .collapse .navbar-nav .nav-item {
+  margin-right: 12px;
+}
+.header .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #000000;
+}
+.header .navbar .collapse .navbar-nav .nav-item .nav-link.active {
+  color: #FD6F00;
+}
+.header .navbar .collapse .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+.header .navbar .collapse .navbar-nav .nav-item:hover a {
+  color: #FD6F00;
+}
+
+.btn.btn-primary {
+  background-color: #FD6F00;
+  color: #fff !important;
+  border: 1px solid #FD6F00;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #ff6300;
+}
+
+.btn-sm {
+  font-size: 0.875rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.btn-md {
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.btn-lg {
+  font-size: 1.125rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.btn-xl {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.35rem;
+}
+
+.card .card-header {
+  border: 0;
+}
+.card .card-body {
+  border: 0;
+}
+.card .card-fotter {
+  border: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
